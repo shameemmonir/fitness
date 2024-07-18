@@ -80,7 +80,10 @@ body{
     padding: 0.5rem 1rem;
 }
 /* change your habit area style here  */
-
+.habit-container{
+    width: 1044px;
+    height: 452px;
+}
 .your-habit-description{
     text-align: center;
 }
@@ -99,34 +102,46 @@ body{
     margin-top: 1rem;
 }
 .fitness-description{
-    /* text-align: center; */
+    text-align: center;
+    width: 231px;
+    height: 64px;
 }
 .fitness-container{
     margin-top: 3.5rem;
     margin-left: 2rem;
-    display: grid;
-    /* grid-template-columns: repeat(4, 1fr); */
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr); */
     /* grid-template-rows: repeat(4, 1fr); */
     /* display: flex; */
 }
 .fitness-image{
     width: 231px;
     height: 274px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    text-align: center;
 }
 .fitness-image img{
     border-radius: 50%;
+    /* width: 12rem;
+    height: 10rem; */
+    left: -11.5px;
+}
+.fitness-image{
+    text-align: center;
 }
 .fitness-description h3{
     /* color: rgba(255, 255, 255); */
     font-size: 1.1rem;
     font-weight: 600;
     line-height: 120%;
-    margin-left: 2.5rem;
+    /* margin-left: 2.5rem; */
 }
 .fitness-description p{
     /* color: rgba(255, 255, 255, 0.5); */
     font-size: 1rem;
     font-weight: 400;
-    letter-spacing: 0.px;
+    letter-spacing: 0.5px;
 
 }
