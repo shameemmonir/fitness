@@ -19,7 +19,7 @@ body{
     justify-content: space-around;
     align-items: center;
 }
-h3{
+.logo{
     font-size: 2rem;
     font-weight: 800;
     text-align: left;
@@ -80,6 +80,7 @@ h3{
     padding: 0.5rem 1rem;
 }
 /* change your habit area style here  */
+
 .your-habit-description{
     text-align: center;
 }
@@ -98,5 +99,34 @@ h3{
     margin-top: 1rem;
 }
 .fitness-description{
-    text-align: center;
+    /* text-align: center; */
+}
+.fitness-container{
+    margin-top: 3.5rem;
+    margin-left: 2rem;
+    display: grid;
+    /* grid-template-columns: repeat(4, 1fr); */
+    /* grid-template-rows: repeat(4, 1fr); */
+    /* display: flex; */
+}
+.fitness-image{
+    width: 231px;
+    height: 274px;
+}
+.fitness-image img{
+    border-radius: 50%;
+}
+.fitness-description h3{
+    /* color: rgba(255, 255, 255); */
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 120%;
+    margin-left: 2.5rem;
+}
+.fitness-description p{
+    /* color: rgba(255, 255, 255, 0.5); */
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.px;
+
 }
