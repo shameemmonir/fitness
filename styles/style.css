@@ -6,6 +6,8 @@
 
 body {
     font-family: "Inter", sans-serif;
+    background-color: black;
+
 }
 
 /* navbar style start here  */
@@ -32,11 +34,15 @@ body {
 }
 
 .nav-options {
+    color: rgba(255, 255, 255);
     display: flex;
     align-items: center;
-    gap: 25px;
+    gap: 30px;
+    font-weight: 700;
     cursor: pointer;
     border: 0.5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 1.5rem;
+    padding: 0.8rem;
 }
 
 .span {
@@ -57,7 +63,7 @@ body {
 }
 
 .healthy-description h1 {
-    /* color: rgba(255, 255, 255); */
+    color: rgba(255, 255, 255);
     font-size: 4rem;
     font-weight: 900;
     line-height: 120%;
@@ -68,7 +74,7 @@ body {
 }
 
 .healthy-description p {
-    /* color: rgba(255, 255, 255, 0.5); */
+    color: rgba(255, 255, 255, 0.5);
     width: 520px;
     height: 48px;
     font-size: 1rem;
@@ -87,11 +93,16 @@ body {
 }
 
 .btn-download {
-    /* border: 1px solid rgb(255, 255, 255); */
-    border: 1px solid black;
+    color: white;
+    background-color: black;
+    border: 1px solid rgb(255, 255, 255);
+    /* border: 1px solid black; */
     border-radius: 3rem;
+    /* padding: 0.5rem 1rem; */
     padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
 }
+
 
 /* change your habit area style here  */
 .habit-container {
@@ -104,14 +115,14 @@ body {
 }
 
 .your-habit-description h1 {
-    /* color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
     font-size: 3rem;
     font-weight: 900;
     line-height: 120%;
 }
 
 .your-habit-description p {
-    /* color: rgba(255, 255, 255, 0.5); */
+    color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5rem;
@@ -123,6 +134,7 @@ body {
     text-align: center;
     width: 231px;
     height: 64px;
+    margin-top: 1.2rem;
 }
 
 .fitness-container {
@@ -155,7 +167,7 @@ body {
 }
 
 .fitness-description h3 {
-    /* color: rgba(255, 255, 255); */
+    color: rgba(255, 255, 255);
     font-size: 1.1rem;
     font-weight: 600;
     line-height: 120%;
@@ -163,7 +175,7 @@ body {
 }
 
 .fitness-description p {
-    /* color: rgba(255, 255, 255, 0.5); */
+    color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     font-weight: 400;
     letter-spacing: 0.5px;
@@ -188,13 +200,14 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin: 62px 0;
+    /* margin: 62px 0; */
     width: 45%;
     height: 312px;
 }
 
 .run-description h1 {
     width: 70%;
+    color: rgb(255, 255, 255);
     font-size: 3rem;
     font-weight: 900;
     line-height: 120%;
@@ -203,6 +216,8 @@ body {
 .run-description p {
     width: 95%;
     height: 4rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0.8rem;
 }
 
 .btn-primary {
@@ -221,27 +236,32 @@ body {
 
 /* bmi calculator area style start  */
 .bmi-calculator {
-    position: static;
+    /* position: static; */
     width: 671px;
     height: 120px;
     margin-left: 225px;
+    margin: 7rem 12rem;
 }
 
 .bmi-calculator h1 {
-    /* color: rgb(255, 255, 255); */
-    width: 353px;
-    height: 58px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0.8rem;
     font-size: 3rem;
     font-weight: 900;
     line-height: 120%;
-    text-align: left;
+    /* text-align: left; */
 }
 
 .bmi-calculator p {
-
+    color: rgba(255, 255, 255, 0.5);
     /* display: flex;
     justify-content: flex-start;
     align-items: flex-start; */
+}
+
+.calculate-bmi-container {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 3rem 0;
 }
 
 .bmi-calculator-container {
@@ -257,7 +277,7 @@ td {
 }
 
 .bmi-calculator-title {
-    /* color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
     font-size: 1.8rem;
     font-weight: 900;
     margin-bottom: 2.5rem;
@@ -265,9 +285,10 @@ td {
 
 td,
 th {
-    border: 1px solid black;
+    border: 1px solid rgba(255, 255, 255, 0.5);
     padding: 8px;
     border-collapse: collapse;
+    color: rgba(255, 255, 255, 0.5);
 
 }
 
@@ -277,7 +298,7 @@ th {
 }
 
 .bmi-container-description p {
-    /* color: rgba(255, 255, 255, 0.5); */
+    color: rgba(255, 255, 255, 0.5);
     width: 577px;
     height: 48px;
     font-size: 1rem;
@@ -297,7 +318,7 @@ th {
     align-items: center;
     gap: 20px;
     backdrop-filter: blur(4px); */
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
 }
 
 .input-1 {
@@ -311,26 +332,29 @@ th {
 
 .select-1 {
     width: 49%;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .select-2 {
     width: 100%;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 /* meet your team area start  */
 .meet-our-team-container {
     text-align: center;
+    margin: 6rem 0 4rem 0;
 }
 
 .meet-our-team-description h1 {
-    /* color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
     font-size: 3rem;
     font-weight: 900;
     line-height: 120%;
 }
 
 .meet-our-team-description p {
-    /* color: rgba(255, 255, 255, 0.5); */
+    color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5rem;
@@ -398,15 +422,280 @@ th {
 }
 
 /* practice */
-.photo{
-    width: 400px;
+.photo {
+    width: 340px;
     height: 300px;
-    border: 1px solid tan;
+    /* border: 1px solid tan; */
     background-image: url(../images/trainer1.png);
-    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 0.8rem;
 }
-.photo-container{
+
+.photo1 {
+    background-image: url(../images/trainer20.png);
+    width: 340px;
+    height: 340px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.photo2 {
+    background-image: url(../images/trainer3.png);
+    width: 340px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.photo3 {
+    background-image: url(../images/trainer4.png);
+    width: 340px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.photo4 {
+    background-image: url(../images/trainer5.png);
+    width: 340px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.photo5 {
+    background-image: url(../images/trainer6.png);
+    width: 340px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.photo h1 {
+    display: flex;
+    margin-top: 15rem;
+    padding-left: 0.8rem;
+    color: rgba(255, 255, 255);
+}
+
+.photo p {
+    color: rgba(255, 255, 255, 0.5);
+    padding-left: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+
+.photo-container {
+    width: 69rem;
+    margin: 0 9rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+}
+
+/* practice style */
+.our-team-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1100px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+    gap: 20px;
+    margin-left: 80px;
+}
+.photo-container1{
+    display: flex;
+    margin-top: 2rem;
+}
+.image-container1{
+    display: flex;
+    width: 360px;
+    height: 300px;
+}
+.image-container1 img{
+    border-radius: 1.8rem;
+}
+.image-description1{
+    color: antiquewhite;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 1rem;
+}
+
+
+
+
+
+/* responsive layout start  */
+
+/* small device start here  */
+
+@media screen and (max-width: 576px) {
+    .container{
+        width: 100%;
+    }
+    .logo{
+        font-size: 3rem;
+        font-style: italic;
+    } 
+    .nav-options {
+        visibility: hidden;
+    }
+    .healthy-description h1{
+        font-size: 3rem; 
+    }
+    .healthy-description p{
+        font-size: 1.2rem;
+        line-height: 120%;
+    }
+    .healthy-container{
+        margin-top: 9rem;
+        margin-bottom: 7rem;
+        flex-direction: column;
+    }
+    .your-habit-description{
+        width: 85%;
+    }
+    .your-habit-description h1{
+        font-size: 2rem;
+    }
+    .image-container img{
+        border: 3px solid rgba(255, 255, 255, 0.5);
+    }
+    
+    .fitness-image{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 8.2rem;
+    }
+    .run-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 55rem;
+        width: 400px;
+        height: 100%;
+    }
+    .run-description{
+        display: flex;
+        flex-direction: column;
+    }
+    .run-description h1{
+        font-size: 2rem;
+        width: 18rem;
+    }
+    .run-description p{
+        font-size: 1.3rem;
+        width: 23rem;
+    }
+    .run-description button{
+        margin-top: 3.5rem;
+        width: 24rem;
+        padding: 1.3rem 0;
+        font-size: 1.3rem;
+    }
+    .run-img img{
+        margin-top: 0.5rem;
+        width: 24rem;
+        height: 250px;
+        border-radius: 1rem;
+
+    }
+    
+    .bmi-calculator-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .bmi-calculator{
+        width: 500px;
+        margin: 1.5rem 0 3.5rem 1.5rem;
+    }
+    .bmi-calculator p{
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        width: 25rem;
+    }
+    .bmi-calculator-container{
+        width: 500px;
+        margin-left: 1.5rem;
+    }
+    .bmi-container-description{
+        width: 500px;
+        margin-top: 2rem;
+    }
+    .bmi-container-description h3{
+        font-size: 1.5rem;
+    }
+    .bmi-container-description p{
+        width: 400px;
+        font-size: 1.2rem;
+    }
+    .bmi-input{
+        width: 85%;
+        margin-top: 1.5rem;
+    }
+    .input-1{
+        width: 40%;
+    }
+    .bmi-input1{
+        width: 85%;
+    }
+    .bmi-input2{
+        display: flex;
+        flex-direction: column;
+    }
+    .select-1{
+        width: 42%;
+    }
+    .select-2{
+        width: 85%;
+    }
+    .btn-primary{
+        width: 65%;
+        font-size: 1.3rem; 
+    }
+    .meet-our-team-description h1{
+        font-size: 2rem;
+    }
+    .meet-our-team-description p{
+        font-size: 1.2rem;
+        line-height: 2rem;
+        width: 400px;
+        margin-left: 4rem;
+        text-align: center;
+    }
+    .photo-container{
+        width: 400px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 4.5rem;
+    }
+    .photo{
+        margin-left: 1.5rem;
+        margin-top: 1rem;
+        border-radius: 1rem;
+    }
+    .photo3{
+        height: 400px;
+    }
+    .footer{
+        width: 100%;
+    }
+    .footer hr{
+        width: 5rem;
+    }
+    .footer-description{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
+        width: 40%;
+    }
+
+    
 }
